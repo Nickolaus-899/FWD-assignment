@@ -1,6 +1,7 @@
 {
   "type": "module",
   "scripts": {
+    "run": "npm install",
     "build": "rollup --config rollup.config.js"
   },
   "devDependencies": {
@@ -13,9 +14,6 @@
     "@rollup/plugin-commonjs": "^25.0.2",
     "@rollup/plugin-node-resolve": "^15.1.0",
     "@rollup/plugin-terser": "^0.4.3",
-    "date-fns": "^2.30.0",
-    "dayjs": "^1.11.8",
-    "moment": "^2.29.4",
-    "momentjs": "^2.0.0"
+    "moment": "^2.29.4"
   }
 }
