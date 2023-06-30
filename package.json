@@ -13,7 +13,6 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "dayjs": "^1.11.8",
-    "dayjs-es": "^1.0.0"
+    "dayjs": "^1.11.8"
   }
 }
