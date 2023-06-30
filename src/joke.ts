@@ -1,4 +1,7 @@
-import moment from 'moment'
+import dayjs from 'dayjs';
+import relativeTime from 'dayjs/plugin/relativeTime';
+
+dayjs.extend(relativeTime)
 
 const button = document.getElementById("button-for-api") as HTMLButtonElement
 const titleElement = document.getElementById("title") as HTMLParagraphElement
@@ -10,11 +13,11 @@ const email: string = 'n.petukhov@innopolis.university'
 
 interface Joke {
     alt: string,
-    day: string,
+    day: number,
     img: string,
-    month: string,
+    month: number,
     safe_title: string,
-    year: string,
+    year: number,
 }
 
 type ID = string
@@ -37,7 +40,7 @@ button.addEventListener("click", async () => {
     titleElement.textContent = safe_title
     dateElement.textContent = "Date: " + day + ":" + month + ":" + year
 
-    releasedElement.textContent = "Released: " + moment().fromNow()
+    releasedElement.textContent = "Released: " + dayjs(new Date(year, month, day)).fromNow()
 
     imgElement.src = img
     imgElement.alt = alt
