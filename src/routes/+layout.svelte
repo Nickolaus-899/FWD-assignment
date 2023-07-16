@@ -4,6 +4,10 @@
 	import './../css/main.css';
 </script>
 
+<svelte:head>
+	<title>Portfolio</title>
+</svelte:head>
+
 <div>
 	<Header />
 

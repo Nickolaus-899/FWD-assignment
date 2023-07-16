@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-    <title>Enigma</title>
+	<title>Enigma</title>
 </svelte:head>
 
 <Enigma />
