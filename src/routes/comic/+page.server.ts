@@ -1,16 +1,7 @@
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
+import type {ID, Joke} from "../types";
 
-interface Joke {
-	alt: string;
-	day: number;
-	img: string;
-	month: number;
-	safe_title: string;
-	year: number;
-}
-
-type ID = string;
 
 export const csr = false;
 
