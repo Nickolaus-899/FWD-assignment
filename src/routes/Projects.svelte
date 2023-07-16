@@ -21,7 +21,7 @@
 			</div>
 
 			<div class="card">
-				<a href="./" class="card-link">
+				<a href="/" class="card-link">
 					<img class="card-img" src={tank} alt="Mini-Game" />
 					<h3 class="card-title">Mini-Game in console</h3>
 					<p>Written in Python</p>
@@ -29,7 +29,7 @@
 			</div>
 
 			<div class="card">
-				<a href="./" class="card-link">
+				<a href="/" class="card-link">
 					<img class="card-img" src={fpga} alt="FPGA" />
 					<h3 class="card-title">FPGA Project (MemGame)</h3>
 					<p>Written in Verilog</p>
@@ -37,7 +37,7 @@
 			</div>
 
 			<div class="card">
-				<a href="./" class="card-link">
+				<a href="/" class="card-link">
 					<img class="card-img" src={telegram} alt="Telegram Bot" />
 					<h3 class="card-title">InnoBookingBot</h3>
 					<p>Written in Java, Flutter, Kotlin</p>
