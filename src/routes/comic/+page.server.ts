@@ -26,7 +26,6 @@ export async function load() {
 
 	const { month, year, day, safe_title, img, alt } = data;
 
-
 	return {
 		joke: {
 			titleElement: safe_title,
