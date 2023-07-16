@@ -1,9 +1,9 @@
 <script>
-import Projects from "./Projects.svelte";
-import ButtonToJoke from "./ButtonToJoke.svelte";
+	import Projects from './Projects.svelte';
+	import ButtonToJoke from './ButtonToJoke.svelte';
 </script>
 
 <div>
-    <Projects/>
-    <ButtonToJoke/>
+	<Projects />
+	<ButtonToJoke />
 </div>

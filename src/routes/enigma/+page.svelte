@@ -1,5 +1,9 @@
 <script>
-    import Enigma from "./Enigma.svelte";
+	import Enigma from './Enigma.svelte';
 </script>
 
-<Enigma/>
+<svelte:head>
+    <title>Enigma</title>
+</svelte:head>
+
+<Enigma />

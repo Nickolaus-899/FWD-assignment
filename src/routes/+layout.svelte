@@ -1,15 +1,15 @@
 <script>
-    import Header from "./Header.svelte";
-    import Footer from "./Footer.svelte";
-    import "./../css/main.css"
+	import Header from './Header.svelte';
+	import Footer from './Footer.svelte';
+	import './../css/main.css';
 </script>
 
 <div>
-    <Header/>
+	<Header />
 
-    <main>
-        <slot />
-    </main>
+	<main>
+		<slot />
+	</main>
 
-    <Footer/>
+	<Footer />
 </div>

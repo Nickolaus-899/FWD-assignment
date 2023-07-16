@@ -1,11 +1,9 @@
 <script>
-    import App from "./App.svelte";
-
+	import App from './App.svelte';
 </script>
 
-
 <svelte:head>
-    <title>Portfolio</title>
+	<title>Portfolio</title>
 </svelte:head>
 
-<App/>
+<App />

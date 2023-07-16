@@ -1,5 +1,10 @@
 <script>
-    import Joke from "./Joke.svelte";
+	import Joke from './Joke.svelte';
 </script>
 
-<Joke/>
+
+<svelte:head>
+    <title>Comic</title>
+</svelte:head>
+
+<Joke />
