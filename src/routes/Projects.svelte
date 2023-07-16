@@ -4,7 +4,7 @@
 	import fpga from '../images/portfolio/fpga.png';
 	import telegram from '../images/portfolio/telegram.png';
 
-	import { base } from '$app/paths';
+	// import { base } from '$app/paths';
 </script>
 
 <div class="portfolio" id="portfolio">
@@ -13,7 +13,7 @@
 
 		<div class="card-wrapper">
 			<div class="card">
-				<a href="{base}/enigma" class="card-link">
+				<a href="/enigma" class="card-link">
 					<img class="card-img" src={enigma} alt="Enigma" />
 					<h3 class="card-title">Model of Enigma Machine</h3>
 					<p>Written in C++</p>
@@ -21,7 +21,7 @@
 			</div>
 
 			<div class="card">
-				<a href="{base}/" class="card-link">
+				<a href="/" class="card-link">
 					<img class="card-img" src={tank} alt="Mini-Game" />
 					<h3 class="card-title">Mini-Game in console</h3>
 					<p>Written in Python</p>
@@ -29,7 +29,7 @@
 			</div>
 
 			<div class="card">
-				<a href="{base}/" class="card-link">
+				<a href="/" class="card-link">
 					<img class="card-img" src={fpga} alt="FPGA" />
 					<h3 class="card-title">FPGA Project (MemGame)</h3>
 					<p>Written in Verilog</p>
@@ -37,7 +37,7 @@
 			</div>
 
 			<div class="card">
-				<a href="{base}/" class="card-link">
+				<a href="/" class="card-link">
 					<img class="card-img" src={telegram} alt="Telegram Bot" />
 					<h3 class="card-title">InnoBookingBot</h3>
 					<p>Written in Java, Flutter, Kotlin</p>

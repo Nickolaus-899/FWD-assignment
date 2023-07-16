@@ -1,6 +1,6 @@
 <script lang="ts">
 	import enigma from '../../images/projects/enigma/enigma2.jpg';
-	import { base } from '$app/paths';
+	// import { base } from '$app/paths';
 </script>
 
 <title>Enigma</title>
@@ -19,7 +19,7 @@
 					Link to the Project
 				</a>
 
-				<a href="{base}/" class="footer-button enigma-button"> Back </a>
+				<a href="/" class="footer-button enigma-button"> Back </a>
 			</div>
 		</div>
 	</div>

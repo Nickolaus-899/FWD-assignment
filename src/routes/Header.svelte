@@ -1,11 +1,11 @@
 <script>
-	import { base } from '$app/paths';
+	// import { base } from '$app/paths';
 </script>
 
 <div class="header" id="#header">
 	<h1 class="header-title">Nickolay Petukhov</h1>
 	<p class="header-subtitle">UI student</p>
-	<a href="{base}/">
+	<a href="/">
 		<svg
 			class="house"
 			fill="#FFFFFFFF"
