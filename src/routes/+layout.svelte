@@ -6,6 +6,8 @@
 
 <svelte:head>
 	<title>Portfolio</title>
+	<meta name="author" content="Nickolaus Petukhov" />
+	<meta name="description" content="My Portfolio" />
 </svelte:head>
 
 <div>

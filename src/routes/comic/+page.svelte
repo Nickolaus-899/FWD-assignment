@@ -5,6 +5,8 @@
 
 <svelte:head>
 	<title>Comic</title>
+	<meta name="author" content="Nickolaus Petukhov" />
+	<meta name="description" content="Here you can see the joke" />
 </svelte:head>
 
 <div class="assignment">
