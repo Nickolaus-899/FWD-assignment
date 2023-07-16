@@ -26,13 +26,6 @@ export async function load() {
 
 	const { month, year, day, safe_title, img, alt } = data;
 
-	// titleElement = safe_title;
-	// dateElement = 'Date: ' + day + ':' + month + ':' + year;
-	//
-	// releasedElement = 'Released: ' + dayjs(new Date(year, month, day)).fromNow();
-	//
-	// imgSrc = img;
-	// imgAlt = alt;
 
 	return {
 		joke: {
