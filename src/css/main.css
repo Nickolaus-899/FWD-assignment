@@ -35,7 +35,7 @@ body {
     height: 100vh;
 
     background-color: darkgray;
-    background-image: url("./../images/header/laptop.jpg");
+    background-image: url("../images/header/laptop.jpg");
     background-size: cover;
     background-position: center;
 
@@ -94,6 +94,14 @@ body {
     line-height: 130%;
     text-align: center;
     color: black;
+}
+
+.house {
+    transition: fill 0.3s ease-in;
+}
+
+.house:hover {
+    fill: crimson;
 }
 
 .card-wrapper {
