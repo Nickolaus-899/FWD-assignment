@@ -1,0 +1,13 @@
+{
+	"/": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/comic": [
+		"src/routes/comic/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/enigma": [
+		"src/routes/+layout.ts"
+	]
+}
